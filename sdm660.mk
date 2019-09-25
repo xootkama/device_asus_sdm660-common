@@ -297,6 +297,10 @@ PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm \
     vendor.lineage.livedisplay@2.0-service-sysfs
 
+# Manifest replacement for non NFC variant
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/device_check.sh:install/bin/device_check.sh
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
