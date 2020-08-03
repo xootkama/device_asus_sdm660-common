@@ -22,9 +22,9 @@
 # definition file).
 #
 
-COMMON_PATH := device/xiaomi/sdm660-common
+COMMON_PATH := device/asus/sdm660-common
 
-BOARD_VENDOR := xiaomi
+BOARD_VENDOR := asus
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
@@ -62,7 +62,7 @@ BOARD_RAMDISK_OFFSET     := 0x02000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
+TARGET_KERNEL_SOURCE := kernel/asus/sdm660
 TARGET_KERNEL_CLANG_COMPILE := true
 
 # QCOM hardware
@@ -113,7 +113,7 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 TARGET_ENABLE_MEDIADRM_64 := true
 
 # DT2W
-TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
+TARGET_TAP_TO_WAKE_NODE := "/sys/kernel/touchpanel/dclicknode"
 
 # Enable dexpreopt to speed boot time
 ifeq ($(HOST_OS),linux)
@@ -208,4 +208,4 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
-include vendor/xiaomi/sdm660-common/BoardConfigVendor.mk
+include vendor/asus/sdm660-common/BoardConfigVendor.mk

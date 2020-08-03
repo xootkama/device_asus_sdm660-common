@@ -21,7 +21,7 @@ import sys
 from hashlib import sha1
 
 DEVICE = 'sdm660-common'
-VENDOR = 'xiaomi'
+VENDOR = 'asus'
 VENDOR_PATH = os.path.join(
     *['..', '..', '..', 'vendor', VENDOR, DEVICE, 'proprietary'])
 
