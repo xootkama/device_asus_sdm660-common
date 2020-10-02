@@ -180,13 +180,13 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Sensor
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.sdk.sensors.gestures=false \
-    ro.vendor.sensors.cmc=false \
-    ro.vendor.sensors.facing=false \
-    ro.vendor.sensors.dev_ori=true \
-    ro.vendor.sensors.pmd=true \
-    ro.vendor.sensors.sta_detect=true \
-    ro.vendor.sensors.mot_detect=true
+    ro.vendor.qti.sdk.sensors.gestures=false \
+    ro.vendor.qti.sensors.cmc=false \
+    ro.vendor.qti.sensors.facing=false \
+    ro.vendor.qti.sensors.dev_ori=true \
+    ro.vendor.qti.sensors.pmd=true \
+    ro.vendor.qti.sensors.sta_detect=true \
+    ro.vendor.qti.sensors.mot_detect=true
 
 # Time
 PRODUCT_PROPERTY_OVERRIDES += \
