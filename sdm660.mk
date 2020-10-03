@@ -216,6 +216,10 @@ PRODUCT_BOOT_JARS += \
     qcom.fmradio
 endif
 
+# Fingerprint feature
+PRODUCT_PACKAGES += \
+    fingerprintd
+
 # fwk-detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
