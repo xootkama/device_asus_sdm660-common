@@ -560,6 +560,11 @@ vendor/bin/hw/android.hardware.drm@1.2-service.widevine|1aed116c6cd73ee0c89a5eec
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|f206aecdd6843795f6448bb6d44d2244b3e48815
 vendor/lib64/libwvhidl.so|38677623330ec145a62afdef110c713c9492671c
 
+# Widevine L1 - from lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys
+vendor/lib64/libcpion.so|87465372180b9df51434f7f51faf033c2da914a5
+vendor/lib64/libhdcpsrm.so|a9e378bfe4a66cfc670f35d70d0e182956a1e87b
+vendor/lib64/liboemcrypto.so|db41cb588065ad0d92ac2a59db409420c021413b
+
 # WiFi Display - from jasmine
 bin/wfdservice|d9cccfd6ca14a1d83117533296d6cac2c139c310
 etc/init/wfdservice.rc|311bfdd1675e56499662f39455536b75b78477bb
