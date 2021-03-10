@@ -346,7 +346,13 @@
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
     <!-- Screen brightness when dozing. -->
     <integer name="config_screenBrightnessDoze">17</integer>
-    <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+
+    <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
+    <bool name="config_displayBlanksAfterDoze">true</bool>
+
+    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
+         in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
 
     <!-- ImsService package name to bind to by default. If none is specified in an overlay, an
