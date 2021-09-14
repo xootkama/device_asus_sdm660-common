@@ -476,6 +476,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+
+# Zen Parts
+PRODUCT_PACKAGES += \
+    ZenParts    
+
 include device/qcom/common/av/qti-av.mk
 include device/qcom/common/telephony/qti-telephony.mk
 include device/qcom/common/vibrator/qti-vibrator.mk
